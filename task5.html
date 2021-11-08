@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>Task 5</title>
-    <script src="jquery-1.10.1.min.js"></script>
     <style media="screen">
     body{
       margin:0;
@@ -56,8 +55,9 @@
       	margin-top:18%;
       	padding:25px;
       	background-color: #e2ff74;
-      	width:450px;
+      	width:500px;
         display: none;
+
       }
       header{
         text-align: center;
@@ -67,24 +67,13 @@
     </style>
   </head>
   <body>
+    <script src="script.js">
+
+    </script>
     <div id= "sub" class="noti" onclick="destroy()">
       <div id="sub1" class="subnoti">
-        <header><h1>Новость 1<h1></header>
-          Новость 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. A, alias.<br/>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis
-          ratione voluptatem! Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit? Deleniti quasi nisi consectetur
-          perspiciatis quibusdam nostrum, enim perferendis nam, magni molestias recusandae id libero vitae, repudiandae praesentium.
-      </div>
-      <div id="sub2" class="subnoti">
-        <header><h1>Новость 2<h1></header>
-          Новость 2: Lorem ipsum dolor sit amet consectetur adipisicing elit. A, alias.<br/>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis
-          ratione voluptatem! Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit? Deleniti quasi nisi consectetur
-          perspiciatis quibusdam nostrum, enim perferendis nam, magni molestias recusandae id libero vitae, repudiandae praesentium.
-      </div>
-      <div id="sub3" class="subnoti">
-        <header><h1>Новость 3<h1></header>
-          Новость 3: Lorem ipsum dolor sit amet consectetur adipisicing elit. A, alias.<br/>
+        <header id="hsub">Новость 1</header>
+        <h4 id="h4sub">Новость 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. A, alias.</h4>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis
           ratione voluptatem! Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit? Deleniti quasi nisi consectetur
           perspiciatis quibusdam nostrum, enim perferendis nam, magni molestias recusandae id libero vitae, repudiandae praesentium.
@@ -105,8 +94,5 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae voluptatum susipit sed delectus facere veritatis autem quisquam unde nam doloribus?</p>
         <button class="btn" onclick="display(3)">Открыть всплывющее окно</button>
       </div>
-      <script src="script.js">
-      </script>
-
   </body>
 </html>
